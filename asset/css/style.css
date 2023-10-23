@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* common */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Sora", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.btn {
+    display: inline-block;
+    height: 56px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    border-radius: 999px;
+    /* 100% */
+}
+
+/* header */
+.header {
+    padding: 26px 0 8px;
+    background-color: #FFFAF5;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+
+}
+
+.nav__link {
+    color: #5E6085;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    /* 100% */
+    padding: 8px 18px;
+}
+
+.nav__link:hover {
+    color: #000958;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header__action--signin {
+    color: #000958;
+    opacity: 0.7;
+}
+
+.header__action--signup {
+    display: inline-block;
+    padding: 18px 32px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+    /* 100% */
+    min-width: 117px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(0 9 88 / 0.7);
+    margin-left: 28px;
+    color: #000958;
+}
+
+/* hero */
+.hero {
+    padding: 92px 0 0 0;
+    background-color: #FFFAF5;
+}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__media {
+    width: 52%;
+    display: flex;
+}
+
+.hero__content {
+    width: 48%;
+}
+
+.hero__img--wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 388px;
+    height: 488px;
+    border-radius: 16px;
+    border: 3px solid #fff;
+    background: #FE997B;
+    position: relative;
+    z-index: 1;
+}
+
+.hero__img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero__decor {
+    position: absolute;
+    z-index: -1;
+}
+
+.hero__decor--left {
+    left: -58px;
+    bottom: 10px;
+}
+
+.hero__decor--right {
+    right: -43px;
+    top: 16px;
+}
+
+.hero__img-wrap-small {
+    align-self: flex-end;
+    border: 2px solid rgba(255, 255, 255, 0.65);
+    background: linear-gradient(206deg, #FAA7AD 4.68%, #E87F8A 98.09%);
+    box-shadow: 8px 18px 36px -6px rgba(234, 148, 157, 0.17);
+    width: 186px;
+    height: 244px;
+    margin: 0 0 -58px -23px;
+}
